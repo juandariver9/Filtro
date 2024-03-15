@@ -36,7 +36,7 @@ a {
     top: 10vw;
     width: 80%;
     padding-left: 3vw;
-    border: black solid 1px;
+
 }
 #text3 {
     position: absolute;
@@ -44,6 +44,8 @@ a {
     left: 20%;
     padding-left: 3vw;
     top: 15vw;
+    border: black solid 1px;
+    width: 80%;
 }
 #text4 {
     position: absolute;
@@ -172,4 +174,4 @@ a {
     border-radius: 10px;
     height: 1.5vw;
     
-}
+}   
