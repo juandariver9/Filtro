@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor {
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+}
+
+.parte1 {
+    position: absolute;
+    width: 30vw;
+    height: 100%;
+    background-color: wheat;
+
+}
+
+
+
+#text1 {
+    position: absolute;
+    left: 20%;
+    font-size: 3vw;
+    
+}
+#text2 {
+    position: absolute;
+    font-size: 1.5vw;
+    left: 20%;
+    top: 10vw;
+    width: 80%;
+    padding-left: 3vw;
+    border: black solid 1px;
+}
+#text3 {
+    position: absolute;
+    font-size:1.5vw;
+    left: 20%;
+    padding-left: 3vw;
+    top: 15vw;
+}
+#text4 {
+    position: absolute;
+    font-size: 1.5vw;
+    left: 20%;
+    padding-left: 3vw;
+    top: 20vw;
+}
+#text5 {
+    position: absolute;
+    font-size: 1.5vw;
+    left: 20%;
+    padding-left: 3vw;
+    top: 25vw;
+}
+#text6 {
+    position: absolute;
+    font-size: 1.5vw;
+    left: 20%;
+    padding-left: 3vw;
+    top: 35vw;
+}
+
+#text7 {
+    position: absolute;
+    font-size: 1.5vw;
+    left: 20%;
+    padding-left: 3vw;
+    top: 45vw;
+}
+
+.imagenes img {
+    width: 2vw;
+    position: absolute;
+    left: 21%;
+}
+
+
+#img1 {
+    top: 11.5vw;
+}
+#img2 {
+    top: 16.5vw;
+}
+#img3 {
+    top: 21.5vw;
+}
+#img4 {
+    top: 26.5vw;
+}
+
+#img5 {
+    top: 36.3vw;
+}
+
+/*-------Segundo cont---------*/
+
+
+.parte2 {
+    position: absolute;
+    left: 30%;
+    width: 70vw;
+    height: 100%;
+    background-color: wheat;
+}
+
+
+.cont-objetos {
+    position: absolute;
+    border-radius: 35px;
+    width: 65vw;
+    top: 4%;
+    height: 94vh;
+    background-color: white;
+}
+.objects {
+    position: absolute;
+    top: 8vw;
+    border: transparent ;
+}
+
+#textp2 {
+    position: absolute;
+    font-size: 3vw;
+    left: 3vw;
+}
+
+.object {
+    display:inline-block;
+    width: 14vw;
+    height: 33.5vh;
+    border-radius: 35px;
+    margin: 5px;
+}
+
+#objeto1 {
+    background-image: url(/Imagenes/Abrigo1.webp);
+    background-size: cover;
+}
+#objeto2 {
+    background-image: url(/Imagenes/Abrigo2.webp);
+    background-size: cover;
+}
+#objeto3 {
+    background-image: url(/Imagenes/Camisa1.webp);
+    background-size: cover;
+}
+#objeto4 {
+    background-image: url(/Imagenes/Camisa2.webp);
+    background-size: cover;
+}
+#objeto5 {
+    background-image: url(/Imagenes/Pantalon1.webp);
+    background-size: cover;
+}
+#objeto6 {
+    background-image: url(/Imagenes/Pantalon2.webp);
+    background-size: cover;
+}
+#objeto7 {
+    background-image: url(/Imagenes/Pantalon3.webp);
+    background-size: cover;
+}
+#objeto8 {
+    background-image: url(/Imagenes/Pantalon4.webp);
+    background-size: cover;
+}
+
+.informacion {
+    display: block;    
+    border: black solid 2px;
+    border-radius: 30px;
+    margin-top: 26.5vh;
+    background-color: white;
+    height: 8vh;
+}
+.informacion p{
+    font-size: 0.84vw;
+}
+
+.informacion #Precio {
+    position: relative  ;
+    left: 2vw;
+    bottom: 0.5vw;
+}
+
+.informacion #botonAdd {
+    position: relative;
+    left: 9vw;
+    bottom: 3vw;
+    background-color: green;
+    border: black solid 1px;
+    border-radius: 10px;
+    height: 1.5vw;
+    
+}
