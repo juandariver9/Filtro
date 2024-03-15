@@ -43,8 +43,7 @@ a {
     left: 20%;
     padding-left: 3vw;
     top: 15vw;
-    border: black solid 1px;
-    width: 80%;
+
 }
 #text4 {
     position: absolute;
@@ -52,6 +51,8 @@ a {
     left: 20%;
     padding-left: 3vw;
     top: 20vw;
+    width: 80%;
+    border: black solid 1px;
 }
 #text5 {
     position: absolute;
